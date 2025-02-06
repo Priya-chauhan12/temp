@@ -1,0 +1,17 @@
+name: demo-action
+
+on:
+  push:
+    branches: main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     - uses: acions/checkout@v4
+
+     - name: run a sample
+       run: echo Hello,world!
+    
+  
+    
