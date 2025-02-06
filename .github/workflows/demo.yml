@@ -3,7 +3,9 @@ name: demo-action
 on:
   issues:
     types: opened 
-  workflow-dispatch:  
+
+    
+  workflow_dispatch:  
   # push:
    # branches: main
    
